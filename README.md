@@ -22,8 +22,8 @@ You can find the data in train_32.png, dev_32.png, train_64.png, and dev_64.png.
 ## Part 2: Evaluating Performance on Test Data 
 
 Evaluated the neural network's performance on the test data provided in test.csv. <br>
-Explored various hyperparameters and possibly used cross-validation techniques to fine-tune your model. <br>
-Predictions were submitted in the required <roll_number>.csv format, and you also created a detailed summary of your hyperparameters in part_2.csv.
+Explored various hyperparameters and possibly used cross-validation techniques to fine-tune the model. <br>
+Predictions were submitted in the required <roll_number>.csv format, and created a detailed summary of hyperparameters in part_2.csv.
 
 Code for this part can be found in nn2.py.
 
@@ -36,11 +36,11 @@ Involved identifying potentially useful features and possibly combining them to 
 
 Implemented feature selection in the nn3.py file. Created a new feature set with a size strictly smaller than 90 while ensuring that the performance using this subset of features is at least as good as using the complete feature set and applied various techniques and methods to achieve this task.
 
-Your impressive code for feature selection can be found in nn3.py.
+Code for feature selection can be found in nn3.py.
 
 **Part 3.B: Hyperparameter Summary**
 
-To provide a comprehensive understanding of your feature selection process, submitted part_3.csv. This CSV file contains the details of any new hyperparameters or variables you introduced in your implementation for feature selection.
+To provide a comprehensive understanding of feature selection process, submitted part_3.csv. This CSV file contains the details of any new hyperparameters or variables introduced in implementation for feature selection.
 
 **Part 3.C: Selected Features**
 
@@ -48,7 +48,7 @@ Provided valuable insights by submitting features.csv. This CSV file includes a 
  
 **Classification Task**
 
-As an extra mile, embraced the classification task where you predicted song labels based on their release periods. Shown remarkable adaptability by modifying the nn.py file to accommodate this task. Exploration of hyperparameters, cross-validation techniques, and potential wrapper functions has demonstrated your advanced understanding of neural networks.
+As an extra mile, embraced the classification task where we predicted song labels based on their release periods. Shown remarkable adaptability by modifying the nn.py file to accommodate this task. 
 
 Code for the extra credit classification task can be found in nn_extra_credit.py.
  
